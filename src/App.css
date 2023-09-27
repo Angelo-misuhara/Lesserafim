@@ -1,0 +1,89 @@
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+#container1,#container2{
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+#container1 h1 {
+  text-align: center;
+  
+}
+
+
+/* CursorAnimation.css */
+body{
+  cursor: none;
+}
+.cursor-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+/* Default cursor style */
+.cursor {
+  width: 20px;
+  height: 20px;
+  background-color:  #7ca6de;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transition: transform 0.1s ease, border-width 0.1s ease;
+  mix-blend-mode: difference;
+  pointer-events: none;
+}
+
+/* Magnifying effect (only changing width, height, and transform properties) */
+.cursor.magnify {
+  width: 40px;
+  height: 40px;
+  transform: translate(-50%, -50%) scale(2);
+}
+
+
+
+@media screen and (max-width: 700px) {
+  #container1 {
+    width: auto;
+  }
+  #container1 h1 {
+    text-align: center;
+  }
+  #h2conta {
+    font-size: 1rem;
+  }
+  #LESSERAFIM{
+    font-size: 3.5rem;
+    line-height: 1;
+    padding-top: 50px;
+  }
+  #lesepad{
+    padding: 0;
+  }
+  #lesepad p{
+    padding: 11px;
+	overflow-wrap: break-word;
+  font-size: 1.25rem; /* 20px */
+line-height: 1.75rem; /* 28px */
+  }
+  .cursor-container{
+display: none;
+  }
+  #widhchae{
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    overflow-wrap: break-word;
+  font-size: 1.25rem; /* 20px */
+line-height: 1.75rem; /* 28px */
+  }
+  #chaebg{
+    background-position: right;
+  }
+}
