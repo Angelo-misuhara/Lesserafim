@@ -4,6 +4,7 @@ import Individual from './Layout/Individual';
 import LandingPage from './Layout/LandingPage';
 import { Aboutlese } from './Layout/Aboutlese';
 import Introvid from './introvid';
+import Footer from './Layout/Footer';
 
 function App() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -39,6 +40,7 @@ function App() {
         <LandingPage />
           <Aboutlese/>
         <Individual />
+        <Footer/>
       </div>
     </>
   );

@@ -1,12 +1,11 @@
 
-import {leseintrovid} from '../public/img/leseintrovid.mp4'
 
 const Introvid = () => {
   return (
-   <div className="main h-auto">
-    <video src={leseintrovid} autoPlay loop muted></video>
+    <div className="main h-auto">
+      <video src="/public/img/leseintrovid.mp4" autoPlay loop muted></video>
     </div>
-  )
-}
+  );
+};
 
-export default Introvid
+export default Introvid;
