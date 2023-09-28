@@ -1,18 +1,39 @@
-
+import { useRef, useState } from "react";
 
 const Individual = () => {
   return (
-   <>
-     <div className="bg-[url('/img/2.jpg')] w-auto h-screen bg-right bg-cover pt-7  bg-center flex "id='#chaebg'>
-      
-        <div className="flex flex-col w-[50%] break-words p-2dir" id="widhchae">
-          <h1 className="text-9xl break-words font-black text-[#950101]">KIM CHAEWON</h1>
-            <p className="text-2xl break-words">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam distinctio quisquam, mollitia tenetur repellendus, in voluptate ducimus repellat necessitatibus adipisci quibusdam eligendi aperiam velit odit impedit totam labore illo ipsam animi? Eveniet molestiae voluptatum non dolore quidem! Ex, autem veniam.</p>
-         
+    <>
+      <div className="p-11">
+        <div className="flex flex-row justify-center items-center border">
+          <h1 className="text-7xl break-words font-black">
+            MUSIC <span className="text-[#950101]">VIDEOS</span>
+          </h1>
         </div>
-     </div>
-   </>
-  )
-}
+        <div className="pt-9 flex flex-row gap-5 justify-center items-center" id="musicvideo">
+          <div className="iframes">
+            <iframe
+              className="w-full h-auto"
+              src="https://www.youtube.com/embed/pyf8cbqyfPs?si=ujfMh4vaFwHS0N50"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            ></iframe>
+          </div>
+          <div className="iframes">
+            <iframe
+              className="w-full h-auto"
+              src="https://www.youtube.com/embed/dZs_cLHfnNA?si=PLOJXdVOdwaVwE6G"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
 
-export default Individual
+export default Individual;

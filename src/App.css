@@ -1,6 +1,8 @@
 * {
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 #container1,#container2{
   overflow-y: hidden;
@@ -9,6 +11,13 @@
 #container1 h1 {
   text-align: center;
   
+}
+.main{
+  width: 100%;
+}
+video{
+  width: 100%;
+  object-fit: cover;
 }
 
 
@@ -63,12 +72,13 @@ body{
     padding-top: 50px;
   }
   #lesepad{
-    padding: 0;
+    padding: 20px;
   }
   #lesepad p{
-    padding: 11px;
+
+    padding-top: 22px;
 	overflow-wrap: break-word;
-  font-size: 1.25rem; /* 20px */
+  font-size: 1rem; /* 20px */
 line-height: 1.75rem; /* 28px */
   }
   .cursor-container{
@@ -83,7 +93,15 @@ display: none;
   font-size: 1.25rem; /* 20px */
 line-height: 1.75rem; /* 28px */
   }
-  #chaebg{
-    background-position: right;
+  .main{
+    display: none;
   }
+  #musicvideo{
+    flex-direction: column;
+  }
+  .ifrmaes{
+    width: 50%;
+  }
+
+
 }

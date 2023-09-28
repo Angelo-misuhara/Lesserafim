@@ -3,6 +3,7 @@ import './App.css';
 import Individual from './Layout/Individual';
 import LandingPage from './Layout/LandingPage';
 import { Aboutlese } from './Layout/Aboutlese';
+import Introvid from './introvid';
 
 function App() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -34,6 +35,7 @@ function App() {
         <div className="cursor" style={{ left: position.x, top: position.y }}></div>
       </div>
       <div onMouseEnter={handleTextHover} onMouseLeave={handleTextLeave}>
+        <Introvid/>
         <LandingPage />
           <Aboutlese/>
         <Individual />
