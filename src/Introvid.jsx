@@ -3,7 +3,9 @@
 const Introvid = () => {
   return (
     <div className="main h-auto">
-      <video src="/img/leseintrovid.mp4" autoPlay loop muted></video>
+      <video autoPlay loop muted>
+        <source src="/img/leseintrovid.mp4" />
+      </video>
     </div>
   );
 };
