@@ -28,9 +28,8 @@ const Individual = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
             ></iframe>
-           
           </div>
-           <div>
+          <div>
               <iframe  className="w-full h-auto rounded-md" src="https://www.youtube.com/embed/vMddOrUGwDw?si=agqow3HGBLmHIzw6" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
           <div>
@@ -38,6 +37,9 @@ const Individual = () => {
           </div>
           <div>
             <iframe className="w-full h-auto rounded-md" src="https://www.youtube.com/embed/Ccz123Jlflc?si=iRObGa3SslDimq4I" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div>
+            <iframe className="w-full h-auto rounded-md" width="560" height="315" src="https://www.youtube.com/embed/Ccz123Jlflc?si=7LALJexS4WGkmsf0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </div>
       </div>
