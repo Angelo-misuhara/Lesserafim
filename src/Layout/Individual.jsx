@@ -4,7 +4,7 @@ const Individual = () => {
     <>
       <div className="p-11 pb-11 h-screen" id="asdasda">
         <div className="flex flex-row justify-center items-center">
-          <h1 className="text-7xl break-words font-black">
+          <h1 className="text-7xl break-words font-black" id="musicvvids">
             MUSIC <span className="text-[#950101]">VIDEOS</span>
           </h1>
         </div>

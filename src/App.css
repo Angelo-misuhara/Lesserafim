@@ -99,6 +99,9 @@ line-height: 1.75rem; /* 28px */
   #asdasda{
     height: auto;
   }
+  #musicvvids{
+    text-align: center;
+  }
   #musicvideo{
     display: flex;
     justify-content: center;
