@@ -5,6 +5,7 @@ import LandingPage from './Layout/LandingPage';
 import { Aboutlese } from './Layout/Aboutlese';
 
 import Footer from './Layout/Footer';
+import Lesevec from './Lesevec';
 
 function App() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -42,6 +43,7 @@ function App() {
         <LandingPage />
           <Aboutlese/>
         <Individual />
+        <Lesevec/>
         <Footer/>
       </div>
     </>

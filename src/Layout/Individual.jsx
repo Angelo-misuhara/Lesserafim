@@ -2,7 +2,7 @@
 const Individual = () => {
   return (
     <>
-      <div className="p-11 pb-11">
+      <div className="p-11 pb-11 h-screen" id="asdasda">
         <div className="flex flex-row justify-center items-center">
           <h1 className="text-7xl break-words font-black">
             MUSIC <span className="text-[#950101]">VIDEOS</span>

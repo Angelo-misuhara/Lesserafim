@@ -96,6 +96,9 @@ line-height: 1.75rem; /* 28px */
   .main{
     display: none;
   }
+  #asdasda{
+    height: auto;
+  }
   #musicvideo{
     display: flex;
     justify-content: center;
