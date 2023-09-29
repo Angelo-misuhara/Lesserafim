@@ -8,7 +8,7 @@ const Individual = () => {
             MUSIC <span className="text-[#950101]">VIDEOS</span>
           </h1>
         </div>
-        <div className="pt-9 grid grid-rows-2 grid-flow-col gap-5" id="musicvideo">
+        <div className="pt-9 grid grid-rows-2 grid-flow-col gap-5 pb-11" id="musicvideo">
           <div className="iframes">
             <iframe
               className="w-full h-auto rounded-md"
