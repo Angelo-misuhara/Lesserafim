@@ -9,7 +9,7 @@ const Lesevec = () => {
      </h1>
    
     </div>
-    <div className="pt-9 grid grid-rows-3 grid-flow-col gap-5 pb-11" id="musicvideo">
+    <div className="pt-9 grid grid-rows-3 grid-flow-col gap-5 pb-3" id="musicvideo">
           <div className="iframes">
             <iframe
               className="w-full h-auto rounded-md"
