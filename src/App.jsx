@@ -3,7 +3,7 @@ import './App.css';
 import Individual from './Layout/Individual';
 import LandingPage from './Layout/LandingPage';
 import { Aboutlese } from './Layout/Aboutlese';
-import Introvid from './introvid';
+
 import Footer from './Layout/Footer';
 
 function App() {
@@ -36,7 +36,9 @@ function App() {
         <div className="cursor" style={{ left: position.x, top: position.y }}></div>
       </div>
       <div onMouseEnter={handleTextHover} onMouseLeave={handleTextLeave}>
-        <Introvid/>
+       <div className="main h-screen w-auto bg-cover bg-no-repeat bg-[url('/img/lesegif.gif')]">
+     
+    </div>
         <LandingPage />
           <Aboutlese/>
         <Individual />
