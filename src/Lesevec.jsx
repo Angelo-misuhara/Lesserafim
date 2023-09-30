@@ -4,7 +4,7 @@ const Lesevec = () => {
   return (
     <div className="p-11 pb-11 bg-[#535B69]">
         <div className="flex flex-row justify-center items-center">
-          <h1 className="text-7xl break-words font-black">
+          <h1 className="text-7xl text-center break-words font-black">
             DAYOFF <span className="text-[#950101]">EPISODE</span>
      </h1>
    
